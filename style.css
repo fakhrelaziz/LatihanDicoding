@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+footer p {
+    background-color: rgb(212, 211, 107);
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media screen and (min-width:900px){
+    aside{
+        float: right;
+        width: 25%;
+        padding-left:15px;
+    }
+}
+
+aside article {
+    outline: 2px solid black;
+    outline: dotted;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.logo-side {
+    text-align: center;
+}
+
+.logo-side figure img {
+    width: 8.5rem;
+    height: auto;
+    margin-top: 10px;
+}
+
+aside th{
+    text-align: start;
+}
+td {
+    position: relative;
+    font-weight:500;
+
+}
+ main {
+    padding: 15px;
+    overflow: auto;
+ }
+
+ @media screen and (min-width:800px) {
+    .content{
+        float: left;
+        width: 75%;
+    }
+ }
+.article-card {
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color:  rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+
+h2, h3 {
+    color:  rgb(228, 222, 145);
+    text-shadow: 0 0 2px rgb(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.content p {
+    text-align: justify;
+}
+
+.content img {
+    width: 100%;
+    max-height: 460px;
+    object-fit:cover;
+    object-position: center;
+}
+
+
+.nav-container {
+    border: 1px soli black;
+    display: inline;
+}
+
+.judul {
+    border: 1px soli black;
+    text-align: center;
+    padding: 60px;
+    line-height:3rem ;
+    background-color:  rgb(228, 222, 145);
+}
+
+.judul h1 {
+    font-size: 40px;
+}
+
+nav {
+    border: 1px soli;
+    z-index: 200;
+    background-color: rgb(116, 113, 81);
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul{
+    border: 1px soli;
+    list-style-type: none;
+}
+ nav li{
+    border: 1px soli;
+    display: inline;
+    margin-right: 10px;
+ }
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    text-transform:uppercase;
+    font-size: 13px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
